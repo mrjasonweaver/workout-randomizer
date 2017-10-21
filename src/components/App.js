@@ -7,7 +7,7 @@ class App extends React.Component {
     render() {
         return (
             <div className="workout-radomizer">
-                <Header tagline="Build and randomize your workouts"/>
+                <Header siteTitle="Workout Randomizer" tagline="Build and randomize your workouts"/>
                 <Workout />
                 <AddWorkout />
             </div>
