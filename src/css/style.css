@@ -110,7 +110,7 @@ input,
 select,
 textarea {
   font-family: inherit;
-  font-size: 100%;
+  font-size: 1rem;
   margin: 0;
 }
 button,
@@ -182,4 +182,7 @@ body {
 }
 .wrap {
   padding: 10px 20px;
+}
+.add-workout {
+  max-width: 300px;
 }
