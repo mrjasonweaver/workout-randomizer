@@ -5,7 +5,10 @@ class AddWorkout extends React.Component {
         return (
             <div>
                 <div className="wrap">
-                    <h3>{this.props.sectionTitle}</h3>
+                    <form className="add-workout">
+                        <h3>{this.props.sectionTitle}</h3>
+                        
+                    </form>
                     <p>List workouts here</p>
                 </div>
             </div>

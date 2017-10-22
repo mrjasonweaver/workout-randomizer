@@ -8,8 +8,8 @@ class App extends React.Component {
         return (
             <div className="workout-radomizer">
                 <Header siteTitle="Workout Randomizer" tagline="Build and randomize your workouts"/>
-                <Workout content="Random workout here"/>
-                <AddWorkout sectionTitle="Add workout here"/>
+                <Workout randomTitle="Back and Core"/>
+                <AddWorkout sectionTitle="Add workout"/>
             </div>
         )
     }
