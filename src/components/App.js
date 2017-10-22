@@ -9,7 +9,7 @@ class App extends React.Component {
             <div className="workout-radomizer">
                 <Header siteTitle="Workout Randomizer" tagline="Build and randomize your workouts"/>
                 <Workout content="Random workout here"/>
-                <AddWorkout />
+                <AddWorkout sectionTitle="Add workout here"/>
             </div>
         )
     }

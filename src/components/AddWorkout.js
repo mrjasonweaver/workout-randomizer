@@ -4,7 +4,7 @@ class AddWorkout extends React.Component {
     render() {
         return (
             <div>
-                <p>Add workout here</p>
+                <h3>{this.props.sectionTitle}</h3>
                 <p>List workouts here</p>
             </div>
             
