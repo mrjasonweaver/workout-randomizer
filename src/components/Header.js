@@ -4,8 +4,10 @@ class Header extends React.Component {
     render() {
         return (
             <header className="app-header">
-                <h1>{this.props.siteTitle}</h1>
-                <p>{this.props.tagline}</p>
+                <div className="wrap">
+                    <h1>{this.props.siteTitle}</h1>
+                    <p>{this.props.tagline}</p>
+                </div>
             </header>
         )
     }
