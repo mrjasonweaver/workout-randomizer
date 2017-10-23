@@ -10,7 +10,7 @@ class AddWorkout extends React.Component {
                         <input placeholder="workout name"/><button>Add</button>
                         <input hidden placeholder="workout item"/><button hidden>Add</button>
                     </form>
-                    <p>List workouts here</p>
+                    <WorkoutList workouts="{workouts}"/>
                 </div>
             </div>
             
