@@ -1,4 +1,6 @@
 import React from 'react';
+import WorkoutList from './WorkoutList';
+import workouts from '../data.js'
 
 class AddWorkout extends React.Component {
     render() {
@@ -10,7 +12,7 @@ class AddWorkout extends React.Component {
                         <input placeholder="workout name"/><button>Add</button>
                         <input hidden placeholder="workout item"/><button hidden>Add</button>
                     </form>
-                    <WorkoutList workouts="{workouts}"/>
+                    <WorkoutList workouts={workouts}/>
                 </div>
             </div>
             
