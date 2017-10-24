@@ -8,7 +8,7 @@ const WorkoutList = (props) => {
       <ul className="workout-info">
         <li>{workout.workout_name}</li>
         <li><ul>{workout.workout_items.map(item => <li key={item}>{item}</li>)}</ul></li>
-        <li>{formattedDateTime(workout.date)}</li>
+        <li>Added {formattedDateTime(workout.date)}</li>
       </ul>
     </li>
   );
