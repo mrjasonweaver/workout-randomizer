@@ -1,6 +1,6 @@
 import React from 'react';
 import WorkoutList from './WorkoutList';
-import AddWorkoutNameButton from './AddWorkoutNameButton';
+import AddWorkoutForm from './AddWorkoutForm';
 import AddWorkoutItemButton from './AddWorkoutItemButton';
 import workouts from '../data.js'
 
@@ -9,11 +9,11 @@ class AddWorkout extends React.Component {
         return (
             <div>
                 <div className="wrap">
-                    <form className="add-workout">
+                    <div className="add-workout-form-wrapper">
                         <h3>{this.props.sectionTitle}</h3>
-                        <input placeholder="workout name"/><AddWorkoutNameButton />
+                        <AddWorkoutForm />
                         <input placeholder="workout item"/><AddWorkoutItemButton />
-                    </form>
+                    </div>
                     <WorkoutList workouts={workouts}/>
                 </div>
             </div>
