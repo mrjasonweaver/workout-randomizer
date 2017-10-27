@@ -22,8 +22,10 @@ class AddWorkoutForm extends React.Component {
             <div>
                 <h3>{this.state.value}</h3>
                 <form onSubmit={this.handleSubmit}>
-                    <input type="text" placeholder="Add workout title" value={this.state.value} onChange={this.handleChange} />
-                    <input type="submit" value="Add" />
+                    <div>
+                        <input type="text" placeholder="Add workout title" value={this.state.value} onChange={this.handleChange} />
+                        <input type="submit" value="Add" />
+                    </div>
                     <input placeholder="workout item"/>
                 </form>
             </div>
